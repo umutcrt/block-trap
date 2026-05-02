@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Block Trap: Drain Puzzle</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px 60px;
+      line-height: 1.65;
+      color: #111;
+      background: #fff;
+    }
+    nav.lang-nav {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: saturate(180%) blur(14px);
+      -webkit-backdrop-filter: saturate(180%) blur(14px);
+      border-bottom: 1px solid #e5e5e5;
+      padding: 14px 20px;
+      margin: 0 -20px 24px;
+      z-index: 100;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      font-size: 14px;
+    }
+    nav.lang-nav a {
+      color: #0a66c2;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 6px;
+      transition: background 0.15s;
+    }
+    nav.lang-nav a:hover {
+      background: #f0f4f8;
+    }
+    nav.lang-nav span.sep {
+      color: #ccc;
+    }
+    section {
+      scroll-margin-top: 70px;
+      padding-top: 16px;
+      padding-bottom: 32px;
+      border-bottom: 1px solid #ececec;
+    }
+    section:last-of-type {
+      border-bottom: none;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 16px 0 8px;
+    }
+    h2 {
+      margin-top: 28px;
+      font-size: 19px;
+    }
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 4px;
+      font-size: 15px;
+      color: #111;
+    }
+    p, li {
+      color: #333;
+    }
+    .answer {
+      color: #555;
+      margin-top: 0;
+    }
+    .contact-box {
+      background: #f7f8fa;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .contact-box a {
+      font-weight: 600;
+    }
+    a {
+      color: #0a66c2;
+    }
+    .top-link {
+      display: inline-block;
+      margin-top: 16px;
+      font-size: 13px;
+      color: #888;
+      text-decoration: none;
+    }
+    .top-link:hover {
+      color: #0a66c2;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111; color: #eaeaea; }
+      nav.lang-nav { background: rgba(20, 20, 20, 0.92); border-bottom-color: #2a2a2a; }
+      nav.lang-nav a { color: #6ab4f5; }
+      nav.lang-nav a:hover { background: #1f2937; }
+      nav.lang-nav span.sep { color: #444; }
+      section { border-bottom-color: #2a2a2a; }
+      h3 { color: #eaeaea; }
+      p, li { color: #cfcfcf; }
+      .answer { color: #aaa; }
+      .contact-box { background: #1a1a1a; border-color: #2a2a2a; }
+      a { color: #6ab4f5; }
+      .top-link { color: #777; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="lang-nav" aria-label="Language">
+  <a href="#en">English</a>
+  <span class="sep">·</span>
+  <a href="#tr">Türkçe</a>
+  <span class="sep">·</span>
+  <a href="#es">Español</a>
+  <span class="sep">·</span>
+  <a href="#de">Deutsch</a>
+  <span class="sep">·</span>
+  <a href="#ja">日本語</a>
+  <span class="sep">·</span>
+  <a href="#zh">简体中文</a>
+</nav>
+
+<!-- ============================================================ -->
+<!-- ENGLISH -->
+<!-- ============================================================ -->
+<section id="en" lang="en">
+
+<h1>Support — Block Trap: Drain Puzzle</h1>
+
+<h2>Need help?</h2>
+<div class="contact-box">
+  <p>
+    Got a question, found a bug, or want to share feedback? Email
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>
+    and I'll get back to you. Replies usually arrive within a few days.
+  </p>
+  <p>
+    To help me fix things faster, please include your iOS version, your
+    iPhone model, and a short description of what happened.
+  </p>
+</div>
+
+<h2>Frequently asked</h2>
+
+<h3>How do I play Block Trap?</h3>
+<p class="answer">
+Tap any colored block whose path to the bottom is clear — it will slide
+into the matching color tube. Each tube holds 14 cells; fill it exactly
+to clear it. Overflow on any color ends the game. Stuck? Double-tap a
+tube to drain it. You start each game with 3 drains.
+</p>
+
+<h3>My progress disappeared on a new device.</h3>
+<p class="answer">
+Make sure you are signed in to iCloud on both devices, and that iCloud
+is enabled for Block Trap in iOS Settings → [your name] → iCloud. The
+app uses iCloud Key-Value sync, which can take 5–30 seconds to propagate.
+When two devices have different stats, the higher best score wins.
+</p>
+
+<h3>Do I have to watch ads to play?</h3>
+<p class="answer">
+No. Rewarded ads are always optional and only offered when you'd
+otherwise game over. Decline and the run ends naturally. The app limits
+this offer to two ads per gameplay session.
+</p>
+
+<h3>How do I reset my stats?</h3>
+<p class="answer">
+Open the app's Settings → "Reset stats". This clears local statistics
+and broadcasts the reset across your iCloud-synced devices.
+</p>
+
+<h3>Where is the privacy policy?</h3>
+<p class="answer">
+You can read it at
+<a href="privacy.html">privacy.html</a>.
+</p>
+
+<h2>About</h2>
+<p>
+Block Trap is built and supported by one person, in Istanbul.
+</p>
+
+<a class="top-link" href="#en">↑ Top</a>
+
+</section>
+
+<!-- ============================================================ -->
+<!-- TÜRKÇE -->
+<!-- ============================================================ -->
+<section id="tr" lang="tr">
+
+<h1>Destek — Block Trap: Drain Puzzle</h1>
+
+<h2>Yardım mı lazım?</h2>
+<div class="contact-box">
+  <p>
+    Bir soru, bir hata veya geribildirim mi var?
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>
+    adresine yaz, sana döneceğim. Yanıtlar genellikle birkaç gün içinde gelir.
+  </p>
+  <p>
+    Sorunu daha hızlı çözebilmem için lütfen iOS sürümünü, iPhone modelini
+    ve neler olduğunun kısa bir açıklamasını ekle.
+  </p>
+</div>
+
+<h2>Sık sorulanlar</h2>
+
+<h3>Block Trap nasıl oynanır?</h3>
+<p class="answer">
+Tabana giden yolu açık olan herhangi bir renkli bloğa dokun — eşleşen
+renkli tüpe süzülecek. Her tüp 14 hücre tutar; tam doldurarak temizle.
+Herhangi bir renkte taşma oyunu bitirir. Sıkıştın mı? Bir tüpe iki kere
+dokunarak boşalt. Her oyuna 3 boşaltım hakkıyla başlarsın.
+</p>
+
+<h3>İlerlemem yeni bir cihazda kayboldu.</h3>
+<p class="answer">
+Her iki cihazda da iCloud'a giriş yaptığından ve iOS Ayarlar → [adın] →
+iCloud altında Block Trap için iCloud'un etkin olduğundan emin ol.
+Uygulama iCloud Key-Value senkronizasyonu kullanır; yayılması 5-30
+saniye alabilir. İki cihaz farklı istatistiklere sahipse, en yüksek en
+iyi skor kazanır.
+</p>
+
+<h3>Oynamak için reklam izlemek zorunda mıyım?</h3>
+<p class="answer">
+Hayır. Ödüllü reklamlar her zaman isteğe bağlıdır ve yalnızca oyun sonu
+olacakken sunulur. Reddedersen oyun doğal şekilde biter. Uygulama bu
+teklifi oyun oturumu başına iki reklam ile sınırlar.
+</p>
+
+<h3>İstatistiklerimi nasıl sıfırlarım?</h3>
+<p class="answer">
+Uygulamanın Ayarlar bölümünden → "İstatistikleri sıfırla". Bu, yerel
+istatistikleri temizler ve sıfırlamayı iCloud ile senkronize
+cihazlarına da yayar.
+</p>
+
+<h3>Gizlilik politikası nerede?</h3>
+<p class="answer">
+<a href="privacy.html">privacy.html</a> adresinden okuyabilirsin.
+</p>
+
+<h2>Hakkında</h2>
+<p>
+Block Trap, İstanbul'da tek bir kişi tarafından geliştirilip destekleniyor.
+</p>
+
+<a class="top-link" href="#en">↑ Üst</a>
+
+</section>
+
+<!-- ============================================================ -->
+<!-- ESPAÑOL -->
+<!-- ============================================================ -->
+<section id="es" lang="es">
+
+<h1>Soporte — Block Trap: Drain Puzzle</h1>
+
+<h2>¿Necesitas ayuda?</h2>
+<div class="contact-box">
+  <p>
+    ¿Tienes una pregunta, encontraste un error o quieres compartir
+    comentarios? Escríbeme a
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>
+    y te responderé. Las respuestas suelen llegar en unos pocos días.
+  </p>
+  <p>
+    Para ayudarme a resolver las cosas más rápido, incluye tu versión
+    de iOS, el modelo de iPhone y una breve descripción de lo que pasó.
+  </p>
+</div>
+
+<h2>Preguntas frecuentes</h2>
+
+<h3>¿Cómo se juega a Block Trap?</h3>
+<p class="answer">
+Toca cualquier bloque de color cuyo camino hacia el fondo esté libre —
+se deslizará hasta el tubo del color correspondiente. Cada tubo tiene
+14 celdas; llénalo justo para vaciarlo. El desbordamiento de cualquier
+color termina la partida. ¿Atascado? Toca dos veces un tubo para
+drenarlo. Empiezas cada partida con 3 drenajes.
+</p>
+
+<h3>Mi progreso desapareció en un nuevo dispositivo.</h3>
+<p class="answer">
+Asegúrate de haber iniciado sesión en iCloud en ambos dispositivos y de
+que iCloud esté activado para Block Trap en Ajustes de iOS → [tu nombre]
+→ iCloud. La app usa sincronización iCloud Key-Value, que puede tardar
+de 5 a 30 segundos en propagarse. Cuando dos dispositivos tienen
+estadísticas diferentes, gana la mejor puntuación más alta.
+</p>
+
+<h3>¿Tengo que ver anuncios para jugar?</h3>
+<p class="answer">
+No. Los anuncios recompensados son siempre opcionales y solo se ofrecen
+cuando ibas a perder. Si los rechazas, la partida termina naturalmente.
+La app limita esta oferta a dos anuncios por sesión de juego.
+</p>
+
+<h3>¿Cómo restablezco mis estadísticas?</h3>
+<p class="answer">
+Abre los Ajustes de la app → "Restablecer estadísticas". Esto borra las
+estadísticas locales y propaga el restablecimiento a tus dispositivos
+sincronizados con iCloud.
+</p>
+
+<h3>¿Dónde está la política de privacidad?</h3>
+<p class="answer">
+Puedes leerla en
+<a href="privacy.html">privacy.html</a>.
+</p>
+
+<h2>Acerca de</h2>
+<p>
+Block Trap está creado y mantenido por una sola persona, en Estambul.
+</p>
+
+<a class="top-link" href="#en">↑ Arriba</a>
+
+</section>
+
+<!-- ============================================================ -->
+<!-- DEUTSCH -->
+<!-- ============================================================ -->
+<section id="de" lang="de">
+
+<h1>Support — Block Trap: Drain Puzzle</h1>
+
+<h2>Brauchst du Hilfe?</h2>
+<div class="contact-box">
+  <p>
+    Hast du eine Frage, einen Fehler gefunden oder möchtest Feedback
+    teilen? Schreibe an
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>
+    und ich melde mich zurück. Antworten kommen üblicherweise innerhalb
+    weniger Tage.
+  </p>
+  <p>
+    Um Probleme schneller beheben zu können, füge bitte deine iOS-Version,
+    dein iPhone-Modell und eine kurze Beschreibung des Vorfalls hinzu.
+  </p>
+</div>
+
+<h2>Häufig gestellte Fragen</h2>
+
+<h3>Wie spielt man Block Trap?</h3>
+<p class="answer">
+Tippe einen farbigen Block an, dessen Weg zum Boden frei ist — er
+gleitet ins farblich passende Rohr. Jedes Rohr fasst 14 Zellen; fülle
+es genau, um es zu leeren. Überlauf einer Farbe beendet das Spiel.
+Festgefahren? Tippe ein Rohr zweimal an, um es zu entleeren. Du startest
+jedes Spiel mit 3 Entleerungen.
+</p>
+
+<h3>Mein Fortschritt ist auf einem neuen Gerät verschwunden.</h3>
+<p class="answer">
+Stelle sicher, dass du auf beiden Geräten in iCloud angemeldet bist und
+iCloud für Block Trap in iOS-Einstellungen → [dein Name] → iCloud
+aktiviert ist. Die App verwendet iCloud Key-Value-Sync, dessen
+Übertragung 5–30 Sekunden dauern kann. Wenn zwei Geräte unterschiedliche
+Statistiken haben, gewinnt die höhere Bestpunktzahl.
+</p>
+
+<h3>Muss ich Werbung ansehen, um zu spielen?</h3>
+<p class="answer">
+Nein. Belohnte Werbung ist immer optional und wird nur angeboten, wenn
+du sonst verlieren würdest. Wenn du ablehnst, endet die Runde natürlich.
+Die App begrenzt dieses Angebot auf zwei Werbespots pro Spielsitzung.
+</p>
+
+<h3>Wie setze ich meine Statistiken zurück?</h3>
+<p class="answer">
+Öffne die Einstellungen der App → "Statistiken zurücksetzen". Das löscht
+die lokalen Statistiken und überträgt das Zurücksetzen an deine
+iCloud-synchronisierten Geräte.
+</p>
+
+<h3>Wo ist die Datenschutzerklärung?</h3>
+<p class="answer">
+Du kannst sie unter
+<a href="privacy.html">privacy.html</a>
+lesen.
+</p>
+
+<h2>Über</h2>
+<p>
+Block Trap wird von einer einzigen Person in Istanbul entwickelt und
+gepflegt.
+</p>
+
+<a class="top-link" href="#en">↑ Nach oben</a>
+
+</section>
+
+<!-- ============================================================ -->
+<!-- 日本語 -->
+<!-- ============================================================ -->
+<section id="ja" lang="ja">
+
+<h1>サポート — Block Trap: Drain Puzzle</h1>
+
+<h2>お困りですか?</h2>
+<div class="contact-box">
+  <p>
+    質問、バグ報告、フィードバックがありますか?
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>
+    までメールしてください。お返事します。通常、数日以内に返信します。
+  </p>
+  <p>
+    より迅速に対応するため、iOSバージョン、iPhoneのモデル、起こったことの
+    簡単な説明を含めてください。
+  </p>
+</div>
+
+<h2>よくある質問</h2>
+
+<h3>Block Trapはどうやってプレイしますか?</h3>
+<p class="answer">
+床までの道が空いている色付きブロックをタップしてください — 対応する
+色のチューブに滑り込みます。各チューブは14マス;ぴったり満たして空に
+してください。いずれかの色で溢れるとゲームオーバーです。詰まったら?
+チューブをダブルタップして排出。各ゲームは3回の排出から始まります。
+</p>
+
+<h3>新しいデバイスで進捗が消えました。</h3>
+<p class="answer">
+両方のデバイスでiCloudにサインインしていること、iOS設定 → [あなたの
+名前] → iCloudでBlock TrapのiCloudが有効になっていることを確認して
+ください。アプリはiCloud Key-Value同期を使用し、伝播に5〜30秒
+かかることがあります。2つのデバイスで異なる統計がある場合、より高い
+ベストスコアが勝ちます。
+</p>
+
+<h3>プレイするには広告を見る必要がありますか?</h3>
+<p class="answer">
+いいえ。リワード広告は常にオプションで、ゲームオーバーになる時にのみ
+提供されます。拒否すると、ラウンドは自然に終了します。アプリはこの
+オファーをゲームセッションごとに2つの広告に制限します。
+</p>
+
+<h3>統計をリセットするには?</h3>
+<p class="answer">
+アプリの設定を開く → 「統計をリセット」。これによりローカル統計が
+消去され、iCloud同期されたデバイスにもリセットが伝わります。
+</p>
+
+<h3>プライバシーポリシーはどこにありますか?</h3>
+<p class="answer">
+<a href="privacy.html">privacy.html</a>
+で読めます。
+</p>
+
+<h2>このアプリについて</h2>
+<p>
+Block Trapはイスタンブールで一人によって開発・サポートされています。
+</p>
+
+<a class="top-link" href="#en">↑ トップへ</a>
+
+</section>
+
+<!-- ============================================================ -->
+<!-- 简体中文 -->
+<!-- ============================================================ -->
+<section id="zh" lang="zh-Hans">
+
+<h1>支持 — Block Trap: Drain Puzzle</h1>
+
+<h2>需要帮助?</h2>
+<div class="contact-box">
+  <p>
+    有问题、发现错误或想分享反馈?请发邮件至
+    <a href="mailto:umutcorut@gmail.com">umutcorut@gmail.com</a>,
+    我会回复你。回复通常在几天内到达。
+  </p>
+  <p>
+    为了更快地解决问题,请附上你的 iOS 版本、iPhone 型号以及发生情况的
+    简短描述。
+  </p>
+</div>
+
+<h2>常见问题</h2>
+
+<h3>Block Trap 怎么玩?</h3>
+<p class="answer">
+点击任何通往底部路径清晰的彩色方块 — 它会滑入对应颜色的管道。每个管道
+容纳14格;精确填满即可清空。任何颜色溢出都会结束游戏。卡住了?双击管道
+即可排空。每局开始有3次排空。
+</p>
+
+<h3>我在新设备上的进度消失了。</h3>
+<p class="answer">
+请确保两台设备都已登录 iCloud,并在 iOS 设置 → [你的名字] → iCloud 中
+为 Block Trap 启用了 iCloud。应用使用 iCloud Key-Value 同步,传播可能
+需要 5–30 秒。当两台设备有不同的统计数据时,较高的最高分胜出。
+</p>
+
+<h3>我必须看广告才能玩吗?</h3>
+<p class="answer">
+不需要。奖励广告始终是可选的,仅在你即将游戏结束时提供。拒绝后,该局
+会自然结束。应用将此提议限制为每场游戏会话两个广告。
+</p>
+
+<h3>如何重置我的统计数据?</h3>
+<p class="answer">
+打开应用的设置 → "重置统计"。这会清除本地统计数据,并将重置广播到你
+通过 iCloud 同步的设备。
+</p>
+
+<h3>隐私政策在哪里?</h3>
+<p class="answer">
+你可以在
+<a href="privacy.html">privacy.html</a>
+上阅读。
+</p>
+
+<h2>关于</h2>
+<p>
+Block Trap 由一人在伊斯坦布尔开发和维护。
+</p>
+
+<a class="top-link" href="#en">↑ 返回顶部</a>
+
+</section>
+
+</body>
+</html>
